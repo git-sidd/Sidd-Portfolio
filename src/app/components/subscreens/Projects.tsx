@@ -107,9 +107,7 @@ function Projects() {
     <CardSpotlight>
     <WobbleCard>
     <p className=" text-xl text-center font-serif font-semibold ml-4 md:ml-0 mt-2 my-4 text-white z-50">Projects 🖥</p>
-    <div className="md:hidden">
-    <p className="text-center font-mono  text-white z-30 mb-4 ">Note:kindly open in desktop mode to see the UI</p>
-    </div>
+    
         <StickyScroll content={content} />
     </WobbleCard>
     </CardSpotlight>

@@ -48,7 +48,7 @@ function About() {
             <CardSpotlight>
            <div className="flex flex-col relative w-full ">
                 <WobbleCard>
-                <p className=" text-xl text-center font-serif font-semibold ml-4 md:ml-0 mt-2 text-white z-30">Skills I Mastered 🥷🏻</p>
+                <p className=" text-xl text-center font-serif font-semibold ml-4 md:ml-0 mt-2 mb-4 text-white z-30">Skills I Mastered 🥷🏻</p>
                 <Skills></Skills>
                 </WobbleCard>
            </div>
@@ -62,6 +62,7 @@ function About() {
 
        
         <div className="flex flex-col gap-5">
+        
           <Achievement></Achievement>
           <Socialmedia></Socialmedia>
           <Projects></Projects>
