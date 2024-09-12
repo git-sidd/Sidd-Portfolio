@@ -27,7 +27,7 @@ import {
   export const InfiniteSlider = () => {
     const sliderAnimation = {
         display: 'flex',
-        animation: 'infiniteSlider 10s linear infinite',
+        animation: 'infiniteSlider 30s linear infinite',
       };
     
       const containerKeyframes = `

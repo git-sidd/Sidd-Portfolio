@@ -36,7 +36,7 @@ export function Achievement() {
       title: "Hamlet",
     },
     {
-        src:"/dhgtrophy.jpg",
+        src:"/rme.jpg",
         alt: "sprp",
         title: "dhg",
       },
