@@ -23,7 +23,7 @@ function Aboutme() {
         <div className=' relative z-20 mt-2   flex items-center justify-center text-center'>
         I'm  a 3rd-year Computer Engineering student at PCCOER, passionate about web development and Cyber Security. I love reading books and playing outdoor games to stay inspired and active.
         </div>
-        <Link href={"https://drive.google.com/file/d/1E3cZsgUuFpXdFfI020JWrhMBQjmOrWvo/view?usp=drive_link"}>
+        <Link href={"https://drive.google.com/file/d/1CfbfHK_k4HzaiCCyRBonMsy1Q63FRzbT/view?usp=sharing"}>
         <Button borderRadius="1.0rem"
                 className="bg-white dark:bg-black/40 text-white dark:text-white border-neutral-400 dark:border-slate-800"
               >
