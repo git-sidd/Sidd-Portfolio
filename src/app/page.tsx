@@ -7,14 +7,10 @@ export default function Home() {
     <div className="h-screen overflow-hidden ">
       <AuroraBackground>
         <BackgroundBeamsWithCollision>
-          <div className="flex flex-col space-y-5 overflow-x-hidden h-full overflow-y-scroll hide-scrollbar">
+          <div className="flex flex-col space-y-5 mb-[3rem] overflow-x-hidden h-full overflow-y-scroll hide-scrollbar">
             <About />
             <Contactme />
-            <div className="bg-black  w-full py-3 bottom-0 rounded-md">
-              <p className="text-center font-normal text-white">
-                Developed by Siddhesh Pornima Ramesh Patole
-              </p>
-            </div>
+            
           </div>
         </BackgroundBeamsWithCollision>
       </AuroraBackground>

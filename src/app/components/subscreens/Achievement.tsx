@@ -7,7 +7,7 @@ import { CardSpotlight } from "../ui/card-spotlight";
 
 export function Achievement() {
     return (
-      <div className="h-[22rem] rounded-md flex flex-col antialiased bg-white dark:bg-black/40 dark:bg-grid-white/[0.05] items-center md:justify-center relative overflow-hidden mx-auto border border-white/20">
+      <div className="h-[22rem]  rounded-md flex flex-col antialiased bg-white dark:bg-black/40 dark:bg-grid-white/[0.05] items-center md:justify-center relative overflow-hidden mx-auto border border-white/20">
         <CardSpotlight className="">
        <WobbleCard>
        <p className=" text-xl text-start md:text-center font-serif font-semibold ml-24 md:ml-0 mt-2 mb-4 text-white z-30">Achievements 🏆</p>

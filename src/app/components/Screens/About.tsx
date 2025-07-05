@@ -28,7 +28,7 @@ function About() {
     <div id="about" className="h-auto mt-[10rem]">
       <div className="flex  flex-col mx-auto gap-4">
        
-      <div className="flex flex-col md:flex-row  md:justify-start justify-center items-center md:items-start  gap-4">
+      <div className="flex flex-col md:flex-row  md:justify-evenly justify-center items-center md:items-start  gap-4">
           <div className="flex flex-col items-center justify-center">
             <Aboutme />
           
@@ -64,8 +64,8 @@ function About() {
         <div className="flex flex-col gap-5">
         
           <Achievement></Achievement>
-          <Socialmedia></Socialmedia>
           <Projects></Projects>
+          <Socialmedia></Socialmedia>
           
         </div>
       </div>

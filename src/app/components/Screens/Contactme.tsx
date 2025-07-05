@@ -19,7 +19,7 @@ function Contactme() {
   };
   
   return (
-    <div id="contact" className=" md:h-[28rem] md:mt-32  max-w-md w-full mx-auto  rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black/40 z-20 border border-white/20">
+    <div id="contact" className=" md:h-[28rem]  md:mt-32  max-w-md w-full mx-auto px-6 md:px-4 rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black/40 z-20 border border-white/20">
       <h2 className="font-bold text-2xl text-center font-serif text-neutral-800 dark:text-neutral-200">
         Contact Me ☎
       </h2>
@@ -30,15 +30,15 @@ function Contactme() {
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer  className="mb-4">
           <Label htmlFor="name"> Name</Label>
-          <Input id="name" placeholder="Rohit Sharma" type="text" value={name} onChange={(e)=>setname(e.target.value)} />
+          <Input id="name"  placeholder="name" type="text" value={name} onChange={(e)=>setname(e.target.value)} />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="phone">Moble No.</Label>
-          <Input id="phone" placeholder="91+4545454545" type="tel" value={phone} onChange={(e)=>setphone(e.target.value)} />
+          <Input id="phone" placeholder="phone" type="tel" value={phone} onChange={(e)=>setphone(e.target.value)} />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="message">Message</Label>
-          <Input id="message" placeholder="Message Body" type="textarea" value={message} onChange={(e)=>setmessage(e.target.value)} />
+          <Input id="message" placeholder="message"  type="textarea" value={message} onChange={(e)=>setmessage(e.target.value)} />
         </LabelInputContainer>
         <button
           onSubmit={handleSubmit}
