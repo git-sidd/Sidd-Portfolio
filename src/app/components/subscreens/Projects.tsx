@@ -17,7 +17,7 @@ function Projects() {
           <p className=" text-xl text-center  font-serif font-semibold ml-4 md:ml-0 mt-2 my-4 text-white z-50">
             Projects 🖥
           </p>
-         <div className="max-h-[400px]  overflow-scroll scroll-smooth scrollbar-hide">
+         <div className="max-h-[400px] overflow-scroll scroll-smooth scrollbar-hide">
            <Project/>
          </div>
          
