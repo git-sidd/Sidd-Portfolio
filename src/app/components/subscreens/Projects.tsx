@@ -10,9 +10,9 @@ import Project from "./Project";
 
 function Projects() {
   return (
-    <div className="px-30 h-screen  rounded-xl ">
+    <div className="px-30  rounded-xl ">
       <CardSpotlight>
-        <div className="md:p-4 ">
+        <div className="md:p-4 h-screen ">
           <WobbleCard>
           <p className=" text-xl text-center  font-serif font-semibold ml-4 md:ml-0 mt-2 my-4 text-white z-50">
             Projects 🖥
