@@ -7,6 +7,13 @@ import { FaGithub } from "react-icons/fa"; // ✅ GitHub icon from react-icons
 const Project = () => {
   const projects = [
     {
+        title: "Sainik Mitra",
+      description:
+        "WebApp build for supporting martyrs families",
+      image: "/sm.png",
+      github: "https://github.com/git-sidd/SainikMitra.git"
+    },
+    {
         title: "Blog App",
       description:
         "Blog App Build using MERN Stack",
