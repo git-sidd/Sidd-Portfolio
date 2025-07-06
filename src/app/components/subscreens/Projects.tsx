@@ -12,12 +12,12 @@ function Projects() {
   return (
     <div className="px-30  rounded-xl ">
       <CardSpotlight>
-        <div className="md:p-4 h-screen ">
+        <div className="md:p-4 h-[90vh] ">
           <WobbleCard>
           <p className=" text-xl text-center  font-serif font-semibold ml-4 md:ml-0 mt-2 my-4 text-white z-50">
             Projects 🖥
           </p>
-         <div className="max-h-[400px] overflow-scroll scroll-smooth scrollbar-hide">
+         <div className="max-h-[80vh] overflow-scroll scroll-smooth scrollbar-hide">
            <Project/>
          </div>
          

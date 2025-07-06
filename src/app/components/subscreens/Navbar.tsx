@@ -23,7 +23,7 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
     },
   ];
   return (
-    <div className="relative  w-full">
+    <div className="relative w-full">
       <FloatingNav navItems={navItems}/>
     </div>
     

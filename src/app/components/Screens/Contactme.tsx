@@ -19,7 +19,7 @@ function Contactme() {
   };
   
   return (
-    <div id="contact" className=" md:h-[28rem]  md:mt-32  max-w-md w-full mx-auto px-6 md:px-4 rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black/40 z-20 border border-white/20">
+    <div id="contact" className=" md:h-[28rem]  md:mt-32  max-w-md w-full mx-auto px-6 md:px-8 rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black/40 z-20 border border-white/20">
       <h2 className="font-bold text-2xl text-center font-serif text-neutral-800 dark:text-neutral-200">
         Contact Me ☎
       </h2>
