@@ -1,7 +1,3 @@
-// Import your icons or images
-import GitHubIcon from "../../../../public/github.png";
-import LinkedinIcon from "../../../../public/linkedin.png";
-import InstagramIcon from "../../../../public/instagram.png";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -23,7 +19,7 @@ function Socialmedia() {
               <Link href="https://github.com/git-sidd" legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={GitHubIcon}
+                    src={"https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867234/github_ov6f2x.png"}
                     alt="GitHub"
                     className="w-full h-full object-cover rounded-lg"
                     width={50}
@@ -45,7 +41,7 @@ function Socialmedia() {
               >
                 <a target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={LinkedinIcon}
+                    src={"https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867227/linkedin_uqfcnv.png"}
                     alt="LinkedIn"
                     className="w-full h-full object-cover rounded-lg"
                     width={50}
@@ -63,7 +59,7 @@ function Socialmedia() {
               <Link href="https://instagram.com/patole_siddhesh" legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer">
                   <Image
-                    src={InstagramIcon}
+                    src={"https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867225/instagram_ohqrh0.png"}
                     alt="Instagram"
                     className="w-full h-full object-cover rounded-lg"
                     width={50}

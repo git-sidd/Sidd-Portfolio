@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import { CardSpotlight } from "../../components/ui/card-spotlight";
-import myimg from "../../../../public/sidselfie.jpg"
+
 import { WobbleCard } from "../ui/wobble-card";
 import { Button } from "../ui/moving-border";
 import Link from 'next/link';
@@ -14,7 +14,7 @@ function Aboutme() {
       <div className='flex flex-col items-center justify-center space-y-4 my-4'>
         <div className='flex md:flex-row flex-col gap-4 items-center justify-center rounded-full'>
             <div className='h-[150px] w-[150px] md:h-[100px] md:w-[100px] z-30'>
-            <Image src={myimg} alt='siddhesh' className='w-full h-full md:rounded-3xl rounded-full object-fill'></Image>
+            <Image src={"https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867118/sidselfie_zxycub.jpg"} alt='siddhesh' width={100} height={100} className='w-full h-full md:rounded-3xl rounded-full object-fill'></Image>
             </div>
             <div className="text-[1.35rem] font-bold font-serif relative z-20 mt-2">
             Siddhesh Patole

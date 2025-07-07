@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa"; // ✅ GitHub icon from react-icons
+import { FaGithub } from "react-icons/fa"; 
 
 const Project = () => {
   const projects = [
@@ -10,58 +10,45 @@ const Project = () => {
         title: "Sainik Mitra",
       description:
         "WebApp build for supporting martyrs families",
-      image: "/sm.png",
+      image: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867217/sm_djcnsr.png",
       github: "https://github.com/git-sidd/SainikMitra.git"
     },
     {
         title: "Blog App",
       description:
         "Blog App Build using MERN Stack",
-      image: "/blog.png",
+      image: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867156/blog_jkswn7.png",
       github: "https://github.com/git-sidd/BlogApp.git"
     },
     {
       title: "Nxg Robotics",
       description:
         "Freelancing Project",
-      image: "/nxg.png",
+      image: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867201/nxg_lhn4mk.png",
       github: "https://nxgrobotics.in"
     },
     {
       title: "Food Ordering Site",
       description:
         "A food delivery site with menu browsing, custom orders, and real-time tracking.",
-      image: "/food.png",
+      image: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867180/food_rkyagr.png",
       github: "https://github.com/git-sidd/Food-Delivery-App",
     },
-    {
-      title: "PCET Youthconference",
-      description:
-        "Official site for PCET Youth Conference with schedules, speaker info, and responsive design.",
-      image: "/youth.png",
-      github: "https://pcet.org.in/youthconference/",
-    },
+    
     {
       title: "Razorpay Clone",
       description:
         "Frontend-only clone of Razorpay's landing page with clean UI and full responsiveness.",
-      image: "/razorpay.png",
+      image: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867204/razorpay_ehgtsw.png",
       github: "https://github.com/git-sidd/Razorpay-Clone",
     },
     {
       title: "Ed-Tech Site",
       description:
         "An educational platform frontend with course search, filtering, and responsive layout.",
-      image: "/course.png",
+      image: "https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867165/course_dkrphy.png",
       github: "https://github.com/git-sidd/CourseApp",
-    },
-    {
-      title: "GIF Searching Site",
-      description:
-        "A React app using GIF API with custom hooks to show random and searched GIFs.",
-      image: "/gif.png",
-      github: "https://github.com/git-sidd/GifAPI-APP",
-    },
+    }
   ];
 
   return (
@@ -91,7 +78,7 @@ const Project = () => {
             </h2>
             <p className="text-sm leading-relaxed mb-4">{project.description}</p>
 
-            {/* GitHub Button */}
+           
             <Link href={project.github} target="_blank">
               <button className="flex items-center gap-2 bg-black/80 px-4 py-2 rounded-md text-white hover:bg-black/70 text-sm transition">
                 <FaGithub className="text-lg" />

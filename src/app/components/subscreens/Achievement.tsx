@@ -14,7 +14,7 @@ export function Achievement() {
        <InfiniteMovingCards
           items={testimonials}
           direction="right"
-          speed="fast"
+          speed="slow"
           className="z-30 "
           
         />
@@ -26,22 +26,22 @@ export function Achievement() {
 
   const testimonials = [
     {
-      src:"/grps.jpg",
+      src:"https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867196/grps_vr4oqh.jpg",
       alt: "Charles Dickens",
       title: "A Tale of Two Cities",
     },
     {
-      src:"/pccoer.jpeg",
+      src:"https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867197/pccoer_ffqik4.jpg",
       alt: "William Shakespeare",
       title: "Hamlet",
     },
     {
-        src:"/rme.jpg",
+        src:"https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867210/rme_pwa6w4.jpg",
         alt: "sprp",
         title: "dhg",
       },
       {
-        src:"/topperclg.jpg",
+        src:"https://res.cloudinary.com/dr8jemvpw/image/upload/v1751867223/topperclg_kuickj.jpg",
         alt: "sid Shakespeare",
         title: "pccoer",
       },]
